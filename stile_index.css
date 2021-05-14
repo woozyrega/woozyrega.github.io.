@@ -1,0 +1,270 @@
+#logo{
+    position:absolute;
+	top:0;
+	left:0;
+	height:20%;
+	width:100%;
+}
+
+#testocentrale{
+    position:absolute;
+	top:48%;
+	left:90px;
+	height:40%;
+	width:30%;
+	font-family:"image/RobotoSlab-Medium.ttf";
+        font-size: 20px;
+}
+
+#sinistra{
+	position:absolute;
+	top:40%;
+	left:78%;
+	height:650px;
+	width:422px;
+	background:#cccccc;
+}
+
+#sigaro{
+    position:absolute;
+	top:90px;
+	left:60px;
+}
+	
+#testosin{
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute;
+	top:350px;
+	left:30px;
+        right:35px;
+
+}
+	
+#elencosin{
+    position:absolute;
+	top:465px;
+	left:10px;
+}
+	
+#sotto{
+    position:absolute;
+	top:1015px;
+	left:0px;
+	height:60px;
+	width:100%;
+	background: #333333;
+}
+
+#testosotto{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	color:#FFFFFF;
+}
+
+ul#menu {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	text-align: center;
+}
+  
+ul#menu li {
+    background-color: #333333;
+    display: block;
+    width: 20%;
+    height: 40px;
+	float: left;
+	text-align: center;
+}
+  
+ul#menu li a {
+	color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	line-height: 30px;
+	text-decoration: none;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	
+}
+  
+ul#menu li.active, ul#menu li:hover {
+    background-color: #cccccc;
+}
+
+#men{
+    position:absolute;
+	top:40%;
+	left:0px;
+}
+
+#imgjim{
+    position:absolute;
+	top:100px;
+	left:130%;
+}
+
+#freccia{
+    position:absolute;
+	top:10px;
+	left:1350px;
+}
+
+#evento2{
+    position:absolute;
+	top:200px;
+	left:900px;
+}
+#evento1{
+    position:absolute;
+	top:20px;
+	left:900px;
+}
+#evento3{
+    position:absolute;
+	top:380px;
+	left:900px;
+}
+#linea1{
+    position:absolute;
+	top:180px;
+	left:00px;
+}
+
+#linea2{
+    position:absolute;
+	top:360px;
+	left:00px;
+}
+
+#tevento1{
+    font-family:"image/RobotoSlab-Medium.ttf";
+    position:absolute;
+	top:20px;
+	left:40px;
+	height:130px;
+	width:800px;
+}
+#tevento2{
+    font-family:"image/RobotoSlab-Medium.ttf";
+    position:absolute;
+	top:200px;
+	left:40px;
+	height:130px;
+	width:800px;
+}
+#tevento3{
+    font-family:"image/RobotoSlab-Medium.ttf"; 
+    position:absolute;
+	top:380px;
+	left:40px;
+	height:130px;
+	width:800px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+  background-color: #ccc;
+width: 100%;
+}
+
+
+.panel {
+  padding: 0 14px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+#bottoni {
+position:absolute;
+	top:68%;
+	left:120px;
+        height:60px;
+	width:650px;
+	
+
+}
+
+#film1 {
+position:absolute;
+       top:75%;
+       left:800px;
+
+}
+#film2 {
+position:absolute;
+       top:75%;
+       left:970px;
+
+}
+#film3 {
+position:absolute;
+       top:75%;
+       left:1140px;
+
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #cccccc;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#form{
+    position:absolute;
+	top:48%;
+	left:100px;
+	height:40%;
+	width:55%;
+	font-family:"image/RobotoSlab-Medium.ttf";
+        font-size: 20px;
+}

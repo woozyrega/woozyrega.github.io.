@@ -1,0 +1,112 @@
+<html>
+<head>
+<link href="stile_index.css" rel="stylesheet" type="text/css" media="all" /> 
+<meta charset="utf-8">
+<title>Cinema Recuperato</title>
+<link rel="icon" href="image/icona.ico" />
+</head>
+
+<body>
+
+<div id="logo"> 
+<img src="image/logo.jpg" height="200%" width="100%" alt="Logo">
+</div>
+
+<div id="men">
+<ul id="menu">
+    <li> <a href="index.html">Home</a></li>
+    <li><a href="eventi.html">Eventi</a></li>
+    <li><a href="form.html">Form</a></li>
+    <li><a href="galleria.html">Galleria</a></li>
+    <li><a href="doc.html">Altro</a></li>
+</ul>
+</div>
+
+
+<div id="testocentrale">
+<a href="eventi.html">Eventi</a> > <a href="eventow.html">Rassegna Western</a> >
+<div id="tevento1">
+<h1>Rassegna Western - 2021</h1>
+Evento basato sul Western degli anni 60 e sulle pellicole del regista Sergio Leone
+</div>
+<img src="image/evento1.jpg" id="evento1" width="350" height="160">
+</a>
+</div>
+<div id="bottoni">
+<button class="accordion"><h4>PER UN PUGNO DI DOLLARI (1964)</h4></button>
+<div class="panel">
+  <p><form><a href="item1.html" style='text-decoration:none;'> <input type="button" value="Scheda Film">
+ </a>
+   &nbsp; &nbsp; &nbsp; &nbsp; (12 Giugno 2021 - Cinema Multisala)
+</p>
+  </form>
+
+</div>
+
+<button class="accordion"><h4>PER QUALCHE DOLLARO IN PIU' (1965)</h4></button>
+<div class="panel">
+<p>
+  <form><a href="item2.html" style='text-decoration:none;'> <input type="button" value="Scheda Film">
+ </a>
+   &nbsp; &nbsp; &nbsp; &nbsp; (14 Giugno 2021 - Cinema Multisala)
+</p>
+  </form>
+</div>
+
+<button class="accordion"><h4>IL BUONO, IL BRUTTO, IL CATTIVO (1966)</h4></button>
+<div class="panel">
+<p>
+  <form><a href="item3.html" style='text-decoration:none;'> <input type="button" value="Scheda Film">
+ </a>
+   &nbsp; &nbsp; &nbsp; &nbsp; (16 Giugno 2021 - Cinema Multisala)
+</p>
+  </form>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<a href="item1.html">
+<img src="image/film1.jpg" id="film1" width="150" height="220">
+</a>
+<a href="item2.html">
+<img src="image/film2.jpg" id="film2" width="150" height="220">
+</a>
+<a href="item3.html">
+<img src="image/film3.jpg" id="film3" width="150" height="220">
+</a>
+
+</div>
+
+
+<div id="sinistra">
+<h2 class="Stile1" style="text-align:center"> Eventi simili</h2> 
+<h4 id="testosin"> Il Cinema Ritrovato è una rassegna cinematografica dedicata alla riscoperta di film rari e poco noti, con particolare riferimento alla produzione cinematografica delle origini.<br><br>Link utili:</h4>
+<img src="image/foto.jpg" id="sigaro" height="245" width="302" alt="Foto">
+<ul type=”disc” id="elencosin">
+  <li><a href="https://festival.ilcinemaritrovato.it/" target="_blank">Sito web</a></li>
+  <li><a href="https://www.facebook.com/CinetecaBologna/" target="_blank">Facebook</a></li>
+</ul>
+</div>
+<div  id="sotto">
+<h5 id="testosotto" style="text-align:center">Riccardo Regaiolo Copyright © </h5>
+
+</div>
+
+</body>
+</html>
